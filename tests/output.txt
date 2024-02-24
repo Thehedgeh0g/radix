@@ -1,0 +1,23 @@
+Running: radix.exe 12 36 AAAAAA 
+------------------Result----------------- 
+Converted number: 1M6JM
+========================================= 
+Running: radix.exe A 36 ZZZ 
+------------------Result----------------- 
+Invalid <source notation> type
+<source notation> must be decimal - 'A' got
+========================================= 
+Running: radix.exe 36 A ZZZ 
+------------------Result----------------- 
+Invalid <destination notation> type
+<destination notation> must be decimal - 'A' got
+========================================= 
+Running: radix.exe 12 36 ZZZ 
+------------------Result----------------- 
+Invalid value's source notation
+value's must be source notation - '12' got
+========================================= 
+Running: radix.exe 12 55 1213 
+------------------Result----------------- 
+Invalid base. Bases should be between 2 and 36.
+========================================= 
